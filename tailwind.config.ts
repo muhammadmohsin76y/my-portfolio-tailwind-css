@@ -7,13 +7,16 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container:{
+      center: true,
+      padding: "15px"
+        },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+        accent: "#08E95E",
     },
   },
+  },
   plugins: [],
-};
+}
 export default config;
